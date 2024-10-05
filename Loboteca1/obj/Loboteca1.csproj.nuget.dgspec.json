@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\Loboteca1.csproj": {}
+    "C:\\Users\\aleja\\OneDrive\\Documentos\\UPVT\\10MO CUATRIMESTRE\\API´S\\Sistema Loboteca\\Loboteca1\\Loboteca1\\Loboteca1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\Loboteca1.csproj": {
+    "C:\\Users\\aleja\\OneDrive\\Documentos\\UPVT\\10MO CUATRIMESTRE\\API´S\\Sistema Loboteca\\Loboteca1\\Loboteca1\\Loboteca1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\Loboteca1.csproj",
+        "projectUniqueName": "C:\\Users\\aleja\\OneDrive\\Documentos\\UPVT\\10MO CUATRIMESTRE\\API´S\\Sistema Loboteca\\Loboteca1\\Loboteca1\\Loboteca1.csproj",
         "projectName": "Loboteca1",
-        "projectPath": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\Loboteca1.csproj",
-        "packagesPath": "C:\\Users\\1100319019\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\obj\\",
+        "projectPath": "C:\\Users\\aleja\\OneDrive\\Documentos\\UPVT\\10MO CUATRIMESTRE\\API´S\\Sistema Loboteca\\Loboteca1\\Loboteca1\\Loboteca1.csproj",
+        "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aleja\\OneDrive\\Documentos\\UPVT\\10MO CUATRIMESTRE\\API´S\\Sistema Loboteca\\Loboteca1\\Loboteca1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\1100319019\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aleja\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
