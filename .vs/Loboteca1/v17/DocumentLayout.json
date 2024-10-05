@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\",
+  "WorkspaceRootPath": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\desktop\\loboteca1\\loboteca1\\views\\mecatronica\\mecatronica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\views\\mecatronica\\mecatronica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\Views\\Mecatronica\\Mecatronica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Loboteca1\\Views\\Mecatronica\\Mecatronica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\desktop\\loboteca1\\loboteca1\\views\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\views\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\Views\\Energia\\Energia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Loboteca1\\Views\\Energia\\Energia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\desktop\\loboteca1\\loboteca1\\wwwroot\\css\\inicio.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\wwwroot\\css\\inicio.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\Views\\Industri\\Industri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Loboteca1\\Views\\Industri\\Industri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\desktop\\loboteca1\\loboteca1\\views\\negocios\\negocios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\views\\negocios\\negocios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\Views\\Negocios\\Negocios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Loboteca1\\Views\\Negocios\\Negocios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\desktop\\loboteca1\\loboteca1\\views\\industri\\industri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\views\\industri\\industri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\Views\\Inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Loboteca1\\Views\\Inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\desktop\\loboteca1\\loboteca1\\views\\energia\\energia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\views\\energia\\energia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\inicio.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Loboteca1\\wwwroot\\css\\inicio.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,79 +40,74 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Mecatronica.cshtml",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\Views\\Mecatronica\\Mecatronica.cshtml",
+              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\Views\\Mecatronica\\Mecatronica.cshtml",
               "RelativeDocumentMoniker": "Loboteca1\\Views\\Mecatronica\\Mecatronica.cshtml",
-              "ToolTip": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\Views\\Mecatronica\\Mecatronica.cshtml",
+              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\Views\\Mecatronica\\Mecatronica.cshtml",
               "RelativeToolTip": "Loboteca1\\Views\\Mecatronica\\Mecatronica.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEcAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-04T19:42:13.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Energia.cshtml",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\Views\\Energia\\Energia.cshtml",
+              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\Views\\Energia\\Energia.cshtml",
               "RelativeDocumentMoniker": "Loboteca1\\Views\\Energia\\Energia.cshtml",
-              "ToolTip": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\Views\\Energia\\Energia.cshtml",
+              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\Views\\Energia\\Energia.cshtml",
               "RelativeToolTip": "Loboteca1\\Views\\Energia\\Energia.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAEkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-04T19:43:32.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T19:43:32.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Industri.cshtml",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\Views\\Industri\\Industri.cshtml",
+              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\Views\\Industri\\Industri.cshtml",
               "RelativeDocumentMoniker": "Loboteca1\\Views\\Industri\\Industri.cshtml",
-              "ToolTip": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\Views\\Industri\\Industri.cshtml",
+              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\Views\\Industri\\Industri.cshtml",
               "RelativeToolTip": "Loboteca1\\Views\\Industri\\Industri.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-04T19:42:35.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T19:42:35.922Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Negocios.cshtml",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\Views\\Negocios\\Negocios.cshtml",
+              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\Views\\Negocios\\Negocios.cshtml",
               "RelativeDocumentMoniker": "Loboteca1\\Views\\Negocios\\Negocios.cshtml",
-              "ToolTip": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\Views\\Negocios\\Negocios.cshtml",
+              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\Views\\Negocios\\Negocios.cshtml",
               "RelativeToolTip": "Loboteca1\\Views\\Negocios\\Negocios.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAEUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-04T19:40:52.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T19:40:52.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Inicio.cshtml",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\Views\\Inicio.cshtml",
+              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\Views\\Inicio.cshtml",
               "RelativeDocumentMoniker": "Loboteca1\\Views\\Inicio.cshtml",
-              "ToolTip": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\Views\\Inicio.cshtml",
+              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\Views\\Inicio.cshtml",
               "RelativeToolTip": "Loboteca1\\Views\\Inicio.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-04T19:09:15.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T19:09:15.4Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "inicio.css",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\inicio.css",
+              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\inicio.css",
               "RelativeDocumentMoniker": "Loboteca1\\wwwroot\\css\\inicio.css",
-              "ToolTip": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\inicio.css",
+              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\inicio.css",
               "RelativeToolTip": "Loboteca1\\wwwroot\\css\\inicio.css",
               "ViewState": "AgIAAHIAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-04T19:04:25.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T19:04:25.387Z"
             }
           ]
         }
