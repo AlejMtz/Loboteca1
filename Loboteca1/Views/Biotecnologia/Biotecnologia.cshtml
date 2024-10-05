@@ -1,0 +1,93 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingeniería en Biotecnología - Loboteca</title>
+    <link rel="stylesheet" href="~/css/biotecnologia.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="navbar">
+            <!-- Contenido adicional si es necesario -->
+        </nav>
+
+        <nav class="navbar2">
+            <ul>
+                <li><img src="~/images/libros_v.png" alt="Libros" class="libros"> <a href="#">Libros</a></li>
+                <li><img src="~/images/contacto_v.png" alt="Contacto" class="contacto"><a href="#">Contacto</a></li>
+                <li><img src="~/images/nosotros.png" alt="Nosotros" class="nosotros"><a href="#">Nosotros</a></li>
+                <li><img src="~/images/login_v.png" alt="Perfil" class="perfil"><a href="@Url.Action("Login", "Login")">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección principal -->
+    <main>
+        <section class="books-section">
+            <div class="section-title">
+                <h2>Libros</h2>
+            </div>
+            <div class="carousel-container">
+                <button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
+                <div class="carousel">
+                    <div class="book">
+                        <img src="~/images/bio1.jpg" alt="Libro 1">
+                        <p class="available">Disponible</p>
+                    </div>
+                    <div class="book">
+                        <img src="~/images/bio2.jpg" alt="Libro 2">
+                        <p class="available">Disponible</p>
+                    </div>
+                    <div class="book">
+                        <img src="~/images/bio3.jpg" alt="Libro 3">
+                        <p class="available">Disponible</p>
+                    </div>
+                </div>
+                <button class="next" onclick="moveCarousel(1)">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="magazines-section">
+            <div class="section-title">
+                <h2>Revistas</h2>
+            </div>
+            <div class="carousel-container">
+                <button class="prev" onclick="moveCarouselMagazines(-1)">&#10094;</button>
+                <div class="carousel">
+                    <div class="magazine">
+                        <img src="~/images/biorev1.jpg" alt="Revista 1">
+                        <p class="available">Disponible</p>
+                    </div>
+                    <div class="magazine">
+                        <img src="~/images/biorev2.jpg" alt="Revista 2">
+                        <p class="available">Disponible</p>
+                    </div>
+                    <div class="magazine">
+                        <img src="~/images/biorev3.jpg" alt="Revista 3">
+                        <p class="available">Disponible</p>
+                    </div>
+                </div>
+                <button class="next" onclick="moveCarouselMagazines(1)">&#10095;</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; Derechos Reservados Universidad Politécnica del Valle de Toluca</p>
+        <div class="social-icons">
+            <a href="#"><img src="~/images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="~/images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="~/images/email.png" alt="Correo"></a>
+        </div>
+    </footer>
+
+    <script src="~/js/carrusel.js"></script>
+</body>
+</html>

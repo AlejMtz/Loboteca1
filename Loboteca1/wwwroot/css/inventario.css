@@ -1,0 +1,171 @@
+﻿/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #781c2e;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Barra de navegación secundaria */
+.navbar2 {
+    padding-top: 50px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+    .navbar2 ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+        .navbar2 ul li {
+            margin: 0 20px;
+            display: flex;
+            align-items: center;
+        }
+
+            .navbar2 ul li img {
+                width: 50px;
+                height: 50px;
+                margin-bottom: 5px;
+            }
+
+            .navbar2 ul li a {
+                color: black;
+                text-decoration: none;
+                font-size: 18px;
+                display: inline-block;
+                text-align: center;
+            }
+
+                .navbar2 ul li a:hover {
+                    background-color: #993333;
+                    border-radius: 5px;
+                    padding: 5px;
+                }
+
+/* Submenú para Carrera */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    list-style: none;
+    z-index: 1000;
+    white-space: nowrap;
+}
+
+    .submenu li {
+        margin-bottom: 10px;
+    }
+
+        .submenu li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+            .submenu li a:hover {
+                color: #993333;
+            }
+
+/* Sección principal */
+.main-section {
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #781c2e;
+    margin-bottom: 40px;
+}
+
+.inventario-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilos para cada libro */
+.libro-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Información del libro */
+.informacion-libro {
+    width: 70%;
+}
+
+    .informacion-libro label {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .informacion-libro input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .informacion-libro input[type="checkbox"] {
+        margin-left: 10px;
+    }
+
+/* Imagen del libro */
+.imagen-libro {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .imagen-libro img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+.btn-mas-datos {
+    background-color: #781c2e;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+    .btn-mas-datos:hover {
+        background-color: #993333;
+    }
+
+/* Pie de página */
+footer {
+    background-color: #781c2e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

@@ -1,0 +1,80 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanciones - Loboteca</title>
+    <link rel="stylesheet" href="~/css/sanciones.css"> <!-- Referencia al CSS -->
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+
+        <nav class="navbar">
+
+        </nav>
+
+        <nav class="navbar2">
+            <ul>
+                <li>
+                    <img src="~/images/home.png" alt="Inicio" class="inicio">
+                    <a href="@Url.Action("Inicio", "Inicio")">Inicio</a>
+                </li>
+                <li>
+                    <img src="~/images/carrera.png" alt="Carrera" class="icon" id="carreraMenu">
+                    <a href="javascript:void(0);" onclick="toggleSubMenu()">Carrera</a> <!-- Activa el submenú al hacer clic -->
+                    <ul class="submenu" id="submenuCarrera">
+                        <li><a href="#">Negocios Internacionales</a></li>
+                        <li><a href="#">Industrial</a></li>
+                        <li><a href="#">Mecatrónica</a></li>
+                        <li><a href="#">Energía</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <img src="~/images/nosotros.png" alt="Nosotros" class="nosotros">
+                    <a href="#">Nosotros</a>
+                </li>
+                <li>
+                    <img src="~/images/login.png" alt="Perfil" class="perfil">
+                    <a href="@Url.Action("Login", "Login")">Perfil</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="main-section">
+        <h1>Sanciones</h1>
+        <table class="sanciones-table">
+            <thead>
+                <tr>
+                    <th>Libro</th>
+                    <th>Retraso</th>
+                    <th>Sanción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>El Quijote</td>
+                    <td>2 Días</td>
+                    <td>$30</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Mensaje de advertencia -->
+        <p class="advertencia">Por favor, pasa a biblioteca a cubrir el monto de la sanción de lo contrario no podrás hacer uso de este espacio</p>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; Derechos Reservados Universidad Politécnica del Valle de Toluca</p>
+    </footer>
+
+
+</body>
+</html>

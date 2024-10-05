@@ -1,0 +1,131 @@
+﻿/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Encabezado principal */
+.header-principal {
+    background-color: #00796b;
+    padding: 40px;
+    text-align: center;
+}
+
+    .header-principal h1 {
+        color: white;
+        margin: 0;
+        font-size: 36px;
+    }
+
+/* Barra de navegación secundaria */
+.navbar2 {
+    margin-top: 20px; /* Añadimos un margen para separar del encabezado */
+    padding: 20px;
+    text-align: center;
+}
+
+    .navbar2 ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+        .navbar2 ul li {
+            margin: 0 20px;
+            text-align: center;
+            border: 2px dashed white;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+            .navbar2 ul li a {
+                text-decoration: none;
+                color: #00796b;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+                .navbar2 ul li a:hover {
+                    background-color: #00796b;
+                    border-radius: 8px;
+                    padding: 10px;
+                }
+
+            .navbar2 ul li img {
+                width: 40px;
+                height: 40px;
+                margin-bottom: 5px;
+            }
+
+            .navbar2 ul li span {
+                font-size: 16px;
+            }
+
+/* Sección principal */
+.main-section {
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #00796b;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #004d40;
+    margin-bottom: 20px;
+}
+
+/* Carrusel */
+.carousel {
+    position: relative;
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+.carousel-item img {
+    height: 400px; /* Aumenta la altura de la imagen */
+    width: auto; /* Ajusta el ancho automáticamente */
+    object-fit: contain; /* Mantiene la proporción de la imagen */
+}
+
+.carousel-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #00796b;
+}
+
+/* Botones del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #00796b; /* Color del encabezado */
+    padding: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff; /* Añade un borde blanco para mejor visibilidad */
+}
+
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+        background-color: #004d40; /* Cambia a un tono más oscuro al pasar el cursor */
+    }
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Ajusta el tamaño del área activa del botón */
+}
+
+/* Pie de página */
+footer {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

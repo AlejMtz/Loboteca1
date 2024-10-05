@@ -1,0 +1,116 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario - Loboteca</title>
+    <link rel="stylesheet" href="~/css/inventario.css"> <!-- Referencia al archivo CSS -->
+</head>
+<body>
+
+    <nav class="navbar">
+
+    </nav>
+
+    <!-- Barra de navegación secundaria -->
+    <nav class="navbar2">
+        <ul>
+            <li>
+                <img src="~/images/registro.png" alt="Registro" class="icono">
+                <a href="@Url.Action("Login", "Login")">Registro</a>
+            </li>
+            <li>
+                <img src="~/images/carrera.png" alt="Carrera" class="icono" id="carreraMenu">
+                <a href="javascript:void(0);" onclick="toggleSubMenu()">Carrera</a>
+                <ul class="submenu" id="submenuCarrera">
+                    <li><a href="#">Negocios Internacionales</a></li>
+                    <li><a href="#">Industrial</a></li>
+                    <li><a href="#">Mecatrónica</a></li>
+                    <li><a href="#">Energía</a></li>
+                    <li><a href="#">Biotecnología</a></li>
+                    <li><a href="#">ITI</a></li>
+                </ul>
+            </li>
+            <li>
+                <img src="~/images/login.png" alt="Cuenta" class="icono">
+                <a href="@Url.Action("Perfil", "Perfil")">Cuenta</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Sección principal -->
+    <main class="main-section">
+        <h1>Inventario</h1>
+
+        <div class="inventario-container">
+            <!-- Libro 1 -->
+            <div class="libro-item">
+                <div class="informacion-libro">
+                    <label for="titulo">Titulo</label>
+                    <input type="text" id="titulo" name="titulo" value="El Quijote" readonly>
+
+                    <label for="cantidad">Cantidad</label>
+                    <input type="text" id="cantidad" name="cantidad" value="5" readonly>
+
+                    <label for="estado">Estado</label>
+                    <input type="checkbox" id="estado" name="estado" checked disabled>
+                </div>
+                <div class="imagen-libro">
+                    <!-- Imagen del libro -->
+                    <img src="~/images/libro1.png" alt="Libro 1">
+                    <button class="btn-mas-datos">Más datos</button>
+                </div>
+            </div>
+
+            <!-- Libro 2 -->
+            <div class="libro-item">
+                <div class="informacion-libro">
+                    <label for="titulo">Titulo</label>
+                    <input type="text" id="titulo" name="titulo" value="Don Juan Tenorio" readonly>
+
+                    <label for="cantidad">Cantidad</label>
+                    <input type="text" id="cantidad" name="cantidad" value="2" readonly>
+
+                    <label for="estado">Estado</label>
+                    <input type="checkbox" id="estado" name="estado" disabled>
+                </div>
+                <div class="imagen-libro">
+                    <!-- Imagen del libro -->
+                    <img src="~/images/libro2.png" alt="Libro 2">
+                    <button class="btn-mas-datos">Más datos</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; Derechos Reservados Universidad Politécnica del Valle de Toluca</p>
+    </footer>
+
+    <!-- JavaScript para controlar el menú desplegable -->
+    <script>
+        function toggleSubMenu() {
+            var submenu = document.getElementById("submenuCarrera");
+            if (submenu.style.display === "block") {
+                submenu.style.display = "none";
+            } else {
+                submenu.style.display = "block";
+            }
+        }
+
+        document.addEventListener("click", function(event) {
+            var submenu = document.getElementById("submenuCarrera");
+            var carreraMenu = document.getElementById("carreraMenu");
+
+            if (!carreraMenu.contains(event.target) && !submenu.contains(event.target)) {
+                submenu.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>
