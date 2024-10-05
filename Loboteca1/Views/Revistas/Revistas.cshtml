@@ -1,0 +1,108 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altas de Revistas - Loboteca</title>
+    <link rel="stylesheet" href="~/css/revistas.css"> <!-- Referencia al archivo CSS -->
+</head>
+<body>
+
+    <nav class="navbar">
+
+    </nav>
+
+    <!-- Barra de navegación secundaria -->
+    <nav class="navbar2">
+        <ul>
+            <li>
+                <img src="~/images/registro.png" alt="Registro" class="icono">
+                <a href="@Url.Action("Registro", "Registro")">Registro</a>
+            </li>
+            <li>
+                <img src="~/images/carrera.png" alt="Carrera" class="icono" id="carreraMenu">
+                <a href="javascript:void(0);" onclick="toggleSubMenu()">Carrera</a>
+                <!--<ul class="submenu" id="submenuCarrera">
+                    <li><a href="#">Negocios Internacionales</a></li>
+                    <li><a href="#">Industrial</a></li>
+                    <li><a href="#">Mecatrónica</a></li>
+                    <li><a href="#">Energía</a></li>
+                    <li><a href="#">Biotecnología</a></li>
+                    <li><a href="#">ITI</a></li>
+                            </ul>-->
+            </li>
+            <li>
+                <img src="~/images/inventario.png" alt="Inventario" class="icono">
+                <a href="@Url.Action("Inventario", "Inventario")">Inventario</a>
+            </li>
+            <li>
+                <img src="~/images/login.png" alt="Cuenta" class="icono">
+                <a href="@Url.Action("Perfil", "Perfil")">Cuenta</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Sección principal -->
+    <main class="main-section">
+        <h1>Altas de Revistas</h1>
+
+        <div class="altas-container">
+            <!-- Formulario de alta de Revistas -->
+            <div class="formulario-altas">
+                <label for="titulo">Titulo</label>
+                <input type="text" id="titulo" name="titulo">
+
+                <label for="autor">Autor</label>
+                <input type="text" id="autor" name="autor">
+
+                <label for="isbn">ISBN</label>
+                <input type="text" id="isbn" name="isbn">
+
+                <label for="editorial">Editorial</label>
+                <input type="text" id="editorial" name="editorial">
+
+                <label for="fechaPublicacion">Fecha de publicación</label>
+                <input type="date" id="fechaPublicacion" name="fechaPublicacion">
+
+                <label for="genero">Género</label>
+                <input type="text" id="genero" name="genero">
+
+                <label for="edicion">Número de Edición</label>
+                <input type="number" id="edicion" name="edicion" required>
+
+                <label for="paginas">Número de Páginas</label>
+                <input type="number" id="paginas" name="paginas" required>
+
+                <label for="frecuencia-publicacion">Frecuencia de Publicación</label>
+                <select id="frecuencia-publicacion" name="frecuenciaPublicacion" required>
+                    <option value="semanal">Semanal</option>
+                    <option value="mensual">Mensual</option>
+                    <option value="anual">Anual</option>
+                </select>
+                
+                <div class="botones">
+                    <button class="btn-subir">SUBIR</button>
+                    <button class="btn-cancelar">CANCELAR</button>
+                </div>
+            </div>
+
+            <!-- Imagen de libro -->
+            <div class="imagen-libro">
+                <label for="imagen">Seleccionar imagen</label>
+                <input type="file" id="imagen" name="imagen">
+                <div class="preview"></div> <!-- Lugar para mostrar la vista previa de la imagen -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; Derechos Reservados Universidad Politécnica del Valle de Toluca</p>
+    </footer>
+
+</body>
+</html>

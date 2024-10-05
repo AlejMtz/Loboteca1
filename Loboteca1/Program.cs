@@ -30,6 +30,11 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(
     name: "default",
+    pattern: "{controller=Revistas}/{action=Revistas}/{id?}");
+
+
+app.MapControllerRoute(
+    name: "default",
      pattern: "{controller=Login}/{action=Login}/{id?}"); // Predeterminado al controlador de Login
 
 app.Run();

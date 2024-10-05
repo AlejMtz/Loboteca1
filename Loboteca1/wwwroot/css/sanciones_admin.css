@@ -1,0 +1,122 @@
+﻿/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #781c2e;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar h1 {
+    font-size: 30px;
+    color:aliceblue;
+    
+}
+
+/* Barra de navegación secundaria */
+.navbar2 {
+    padding-top: 50px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+    .navbar2 ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+        .navbar2 ul li {
+            margin: 0 20px;
+            display: flex;
+            align-items: center;
+        }
+
+            .navbar2 ul li a {
+                color: black;
+                text-decoration: none;
+                font-size: 18px;
+                display: inline-block;
+                text-align: center;
+            }
+
+                .navbar2 ul li a:hover {
+                    background-color: #993333;
+                    border-radius: 5px;
+                    padding: 5px;
+                }
+
+            .navbar2 ul li img {
+                width: 50px; /* Tamaño uniforme para todos los íconos */
+                height: 50px;
+                margin-bottom: 5px; /* Espacio entre el ícono y el texto */
+                margin-right: 25px;
+            }
+
+/* Sección principal */
+.main-section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Estilos para los tabs */
+.tab-container {
+    margin-bottom: 20px;
+}
+
+.tab-link {
+    background-color: #781c2e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    .tab-link.active {
+        background-color: #993333;
+    }
+
+    .tab-link:hover {
+        background-color: #993333;
+    }
+
+/* Estilos para las tablas */
+.sanciones-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+    .sanciones-table th, .sanciones-table td {
+        border: 1px solid #781c2e;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .sanciones-table th {
+        background-color: #781c2e;
+        color: white;
+    }
+
+    .sanciones-table td input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+    }
+
+/* Pie de página */
+footer {
+    background-color: #781c2e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

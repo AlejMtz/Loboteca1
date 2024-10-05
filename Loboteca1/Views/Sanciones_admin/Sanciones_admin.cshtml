@@ -1,0 +1,136 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanciones Administrador</title>
+    <link rel="stylesheet" href="~/css/sanciones_admin.css"> <!-- Referencia al archivo CSS -->
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1>ADMINISTRADOR</h1>
+    </nav>
+
+    <nav class="navbar2">
+        <ul>
+            <li>
+                <img src="~/images/libros.png" alt="Altas" class="Altas">
+                <a href="@Url.Action("Altas", "Altas")">Nuevo Libro</a>
+            </li>
+            <li>
+                <img src="~/images/inventario.png" alt="Inventario" class="Inventario">
+                <a href="@Url.Action("Inventario", "Inventario")">Inventario</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Sección principal -->
+    <main class="main-section">
+        <h1>Administrar Sanciones</h1>
+        <div class="tab-container">
+            <button class="tab-link active" onclick="openTab(event, 'alumnos')">Sanciones Alumnos</button>
+            <button class="tab-link" onclick="openTab(event, 'maestros')">Sanciones Maestros</button>
+        </div>
+
+        <div id="alumnos" class="tab-content">
+            <h2>Sanciones por Alumnos</h2>
+            <table class="sanciones-table">
+                <thead>
+                    <tr>
+                        <th>Alumno</th>
+                        <th>Matricula</th>
+                        <th>Libro</th>
+                        <th>Retraso</th>
+                        <th>Sanción</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan Pérez</td>
+                        <td>123</td>
+                        <td>El Quijote</td>
+                        <td>3 Días</td>
+                        <td>$40</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Samara</td>
+                        <td>123</td>
+                        <td>Aura</td>
+                        <td>3 Días</td>
+                        <td>$40</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Yañez</td>
+                        <td>123</td>+
+                        <td>Aura</td>
+                        <td>3 Días</td>
+                        <td>$40</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <!-- Agrega más filas según sea necesario -->
+                </tbody>
+            </table>
+        </div>
+
+        <div id="maestros" class="tab-content" style="display:none">
+            <h2>Sanciones por Maestros</h2>
+            <table class="sanciones-table">
+                <thead>
+                    <tr>
+                        <th>Maestro</th>
+                        <th>Libro</th>
+                        <th>Retraso</th>
+                        <th>Sanción</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>María García</td>
+                        <td>El Quijote</td>
+                        <td>5 Días</td>
+                        <td>$50</td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <!-- Agrega más filas según sea necesario -->
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; Derechos Reservados Universidad Politécnica del Valle de Toluca</p>
+    </footer>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tab-link");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Inicialmente muestra la sección de alumnos
+        document.getElementById("alumnos").style.display = "block";
+    </script>
+</body>
+</html>
