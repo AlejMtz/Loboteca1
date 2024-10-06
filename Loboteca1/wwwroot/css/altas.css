@@ -8,9 +8,11 @@ body {
 /* Barra de navegación */
 .navbar {
     background-color: #781c2e;
-    padding: 40px;
+    padding: 4px;
     text-align: center;
+    color: white; 
 }
+
 
 /* Barra de navegación secundaria */
 .navbar2 {

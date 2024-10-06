@@ -7,21 +7,16 @@ body {
 
 /* Barra de navegación */
 .navbar {
-    background-color: #6A0DAD; /* Color morado oscuro para el menú superior */
-    padding: 20px;
+    background-color: #003366; /* Color azul oscuro para el menú superior */
+    padding: 40px;
     text-align: center;
 }
-
-    .navbar h1 {
-        font-size: 30px;
-        color: aliceblue;
-    }
 
 .navbar2 {
     padding-top: 50px;
     padding: 10px;
     text-align: center;
-    background-color: #E0BBE4; /* Color morado claro para el menú secundario */
+    background-color: #e6e6e6; /* Color gris claro para el menú secundario */
 }
 
     .navbar2 ul {
@@ -55,13 +50,13 @@ body {
             }
 
                 .navbar2 ul li a:hover {
-                    background-color: #D291BC; /* Un morado más suave al pasar el ratón */
+                    background-color: #b3c6e0; /* Un azul claro al pasar el ratón */
                     border-radius: 5px;
                 }
 
 /* Título de las secciones */
 .section-title h2 {
-    background-color: #6A0DAD; /* Color morado oscuro para los títulos */
+    background-color: #003366; /* Color azul oscuro para los títulos de las secciones */
     color: white;
     text-align: center;
     padding: 10px;
@@ -91,7 +86,6 @@ body {
     text-align: center;
     transition: transform 0.5s ease-in-out;
     width: 200px; /* Ancho fijo para las imágenes */
-    position: relative; /* Para el texto 'Leer libro' */
 }
 
     .book img, .magazine img {
@@ -99,36 +93,18 @@ body {
         height: 250px; /* Altura fija para las imágenes */
         object-fit: cover; /* Mantiene las proporciones */
         border-radius: 10px;
-        border: 2px solid #6A0DAD; /* Borde morado oscuro */
+        border: 2px solid #003366; /* Borde azul oscuro */
     }
 
-    /* Efecto hover: Capa morada desvanecida y texto "Leer libro" */
-    .book:hover img, .magazine:hover img {
-        opacity: 0.6; /* Hace que la imagen se vea más clara al pasar el cursor */
-        background-color: rgba(106, 13, 173, 0.7);
-    }
-
-    .book::before, .magazine::before {
-        content: "Leer libro";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        font-size: 20px;
+    .book p, .magazine p {
+        margin-top: 10px;
+        color: #003366; /* Texto azul oscuro para disponibilidad */
         font-weight: bold;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-        z-index: 1; /* Asegura que el texto esté encima de la imagen */
+        font-size: 14px;
     }
 
-    .book:hover::before, .magazine:hover::before {
-        opacity: 1; /* Muestra el texto "Leer libro" */
-    }
-
-/* Botones del carrusel */
 button.prev, button.next {
-    background-color: #6A0DAD; /* Color morado oscuro para los botones */
+    background-color: #003366; /* Color azul oscuro para los botones del carrusel */
     border: none;
     color: white;
     padding: 10px;
@@ -149,7 +125,7 @@ button.next {
 
 /* Footer Styles */
 footer {
-    background-color: #6A0DAD; /* Color morado oscuro para el pie de página */
+    background-color: #003366; /* Color azul oscuro para el pie de página */
     color: white;
     text-align: center;
     padding: 20px;
