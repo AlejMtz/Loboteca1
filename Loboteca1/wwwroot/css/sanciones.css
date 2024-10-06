@@ -53,10 +53,10 @@ body {
     margin-right: 35px;
 }
 
-.navbar2 ul li a:hover {
-    background-color: #993333;
-    border-radius: 5px;
-}
+    .navbar2 ul li a:hover {
+        background-color: #d2c1c1;
+        border-radius: 5px;
+    }
 
     .navbar2 ul .submenu {
         display: none; /* Asegúrate de que esté oculto por defecto */
