@@ -8,15 +8,21 @@ body {
 /* Barra de navegación */
 .navbar {
     background-color: #555555; /* Color gris oscuro para el menú superior */
-    padding: 40px;
+    padding: 20px;
     text-align: center;
 }
+
+    .navbar h1 {
+        font-size: 30px;
+        color: aliceblue;
+    }
 
 .navbar2 {
     padding-top: 50px;
     padding: 10px;
     text-align: center;
     background-color: #e0e0e0; /* Color gris claro para el menú secundario */
+    margin-top: 1cm;
 }
 
     .navbar2 ul {
@@ -63,6 +69,7 @@ body {
     width: 200px;
     margin: 0 auto;
     border-radius: 5px;
+    margin-top: 2cm;
 }
 
 /* Carousel Styles */
