@@ -34,6 +34,7 @@ body {
             margin: 0 20px;
             display: flex;
             align-items: center;
+            position: relative; /* Añadir esta línea */
         }
 
             .navbar2 ul li img {
@@ -51,23 +52,30 @@ body {
             }
 
                 .navbar2 ul li a:hover {
-                    background-color: #993333;
+                    background-color: #d2c1c1;
                     border-radius: 5px;
                     padding: 5px;
                 }
+
+        .navbar2 ul .submenu {
+            display: none; /* Asegúrate de que esté oculto por defecto */
+        }
+
 
 /* Submenú para Carrera */
 .submenu {
     display: none;
     position: absolute;
-    top: 100%;
-    left: 0;
+    top: 100%; /*Desplázalo justo debajo del contenedor relativo */
     background-color: white;
     border: 1px solid #ccc;
     padding: 10px;
-    list-style: none;
     z-index: 1000;
     white-space: nowrap;
+}
+
+.navbar2 ul.submenu.show {
+    display: block; /* Solo se mostrará cuando tenga la clase 'show' */
 }
 
     .submenu li {
