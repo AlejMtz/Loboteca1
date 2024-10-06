@@ -8,9 +8,14 @@ body {
 /* Barra de navegación */
 .navbar {
     background-color: #6A0DAD; /* Color morado oscuro para el menú superior */
-    padding: 40px;
+    padding: 20px;
     text-align: center;
 }
+
+    .navbar h1 {
+        font-size: 30px;
+        color: aliceblue;
+    }
 
 .navbar2 {
     padding-top: 50px;
@@ -56,7 +61,7 @@ body {
 
 /* Título de las secciones */
 .section-title h2 {
-    background-color: #6A0DAD; /* Color morado oscuro para los títulos de las secciones */
+    background-color: #6A0DAD; /* Color morado oscuro para los títulos */
     color: white;
     text-align: center;
     padding: 10px;
@@ -86,6 +91,7 @@ body {
     text-align: center;
     transition: transform 0.5s ease-in-out;
     width: 200px; /* Ancho fijo para las imágenes */
+    position: relative; /* Para el texto 'Leer libro' */
 }
 
     .book img, .magazine img {
@@ -96,15 +102,33 @@ body {
         border: 2px solid #6A0DAD; /* Borde morado oscuro */
     }
 
-    .book p, .magazine p {
-        margin-top: 10px;
-        color: #6A0DAD; /* Texto morado oscuro para disponibilidad */
-        font-weight: bold;
-        font-size: 14px;
+    /* Efecto hover: Capa morada desvanecida y texto "Leer libro" */
+    .book:hover img, .magazine:hover img {
+        opacity: 0.6; /* Hace que la imagen se vea más clara al pasar el cursor */
+        background-color: rgba(106, 13, 173, 0.7);
     }
 
+    .book::before, .magazine::before {
+        content: "Leer libro";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: 1; /* Asegura que el texto esté encima de la imagen */
+    }
+
+    .book:hover::before, .magazine:hover::before {
+        opacity: 1; /* Muestra el texto "Leer libro" */
+    }
+
+/* Botones del carrusel */
 button.prev, button.next {
-    background-color: #6A0DAD; /* Color morado oscuro para los botones del carrusel */
+    background-color: #6A0DAD; /* Color morado oscuro para los botones */
     border: none;
     color: white;
     padding: 10px;

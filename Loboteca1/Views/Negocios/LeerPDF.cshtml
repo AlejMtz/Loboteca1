@@ -1,0 +1,42 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leer Libro</title>
+    <link rel="stylesheet" href="~/css/leerpdf.css">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="navbar">
+            <!-- Contenido adicional si es necesario -->
+        </nav>
+
+        <nav class="navbar2">
+            <ul>
+                <li><img src="~/images/libros_mor.png" alt="Libros" class="libros"> <a href="#">Libros</a></li>
+                <li><img src="~/images/contacto_mor.png" alt="Contacto" class="contacto"><a href="#">Contacto</a></li>
+                <li><img src="~/images/nosotros.png" alt="Nosotros" class="nosotros"><a href="#">Nosotros</a></li>
+                <li><img src="~/images/login_mor.png" alt="Perfil" class="perfil"><a href="@Url.Action("Login", "Login")">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="libro-detalle-container">
+        <h1>Libro PDF</h1>
+
+        <!-- Incrustar el PDF -->
+        <div class="pdf-container">
+            <embed src="@ViewBag.PdfPath" type="application/pdf" width="100%" height="600px" />
+        </div>
+    </div>
+
+
+</body>
+</html>
