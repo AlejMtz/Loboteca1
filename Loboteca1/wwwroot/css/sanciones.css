@@ -30,11 +30,12 @@ body {
     justify-content: center;
 }
 
-.navbar2 ul li {
-    margin: 0 20px;
-    display: flex;
-    align-items: center;
-}
+    .navbar2 ul li {
+        margin: 0 20px;
+        display: flex;
+        align-items: center;
+        position: relative; /* Añadir esta línea */
+    }
 
 .navbar2 ul li img {
     width: 50px; /* Tamaño uniforme para todos los íconos */
@@ -57,19 +58,26 @@ body {
     border-radius: 5px;
 }
 
+    .navbar2 ul .submenu {
+        display: none; /* Asegúrate de que esté oculto por defecto */
+    }
+
 /* Submenú oculto por defecto */
 .submenu {
-    display: none; /* Asegura que el submenú esté oculto inicialmente */
+    display: none;
     position: absolute;
-    top: 100%; /* Desplaza el submenú justo debajo del botón Carrera */
-    left: 0;
+    top: 100%; /*Desplázalo justo debajo del contenedor relativo */
     background-color: white;
     border: 1px solid #ccc;
     padding: 10px;
-    list-style: none;
     z-index: 1000;
-    white-space: nowrap; /* Evita que las opciones del menú se vayan a la siguiente línea */
+    white-space: nowrap;
 }
+
+.navbar2 ul.submenu.show {
+    display: block; /* Solo se mostrará cuando tenga la clase 'show' */
+}
+
 
 .submenu li {
     margin-bottom: 10px;
