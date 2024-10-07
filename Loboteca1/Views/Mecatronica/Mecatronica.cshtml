@@ -14,13 +14,13 @@
     <!-- Barra de navegación -->
     <header>
         <nav class="navbar">
-            <!-- Contenido adicional si es necesario -->
+            <h1>MECATRONICA</h1>
         </nav>
 
         <nav class="navbar2">
             <ul>
                 <li><img src="~/images/libros_gri.png" alt="Libros" class="libros"> <a href="#">Libros</a></li>
-                <li><img src="~/images/revistasMECA.png" alt="Revistas" class="revistas"><a href="#">Revistas</a></li>
+                <li><img src="~/images/revistasMECA.png" alt="Revistas" class="revistas"><a href="#revistas">Revistas</a></li>
                 <li><img src="~/images/castigoMeca.png" alt="Sanciones" class="sanciones"><a href="@Url.Action("Sanciones", "Sanciones")">sanciones</a></li>
                 <li><img src="~/images/login_gri.png" alt="Perfil" class="perfil"><a href="@Url.Action("Info_user", "Info_user")">Perfil</a></li>
             </ul>
@@ -53,7 +53,7 @@
             </div>
         </section>
 
-        <section class="magazines-section">
+        <section class="magazines-section" id="revistas">
             <div class="section-title">
                 <h2>Revistas</h2>
             </div>
