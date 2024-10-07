@@ -1,616 +1,720 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Loboteca1.bundle.scp.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Loboteca1.bundle.scp.css",
       "PackagePath": "staticwebassets\\Loboteca1.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\altas.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\altas.css",
       "PackagePath": "staticwebassets\\css\\altas.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\biotecnologia.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\biotecnologia.css",
       "PackagePath": "staticwebassets\\css\\biotecnologia.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\busqueda.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\busqueda.css",
       "PackagePath": "staticwebassets\\css\\busqueda.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\energia.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\energia.css",
       "PackagePath": "staticwebassets\\css\\energia.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\industri.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\industri.css",
       "PackagePath": "staticwebassets\\css\\industri.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\industrial.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\industrial.css",
       "PackagePath": "staticwebassets\\css\\industrial.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\info.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\info.css",
       "PackagePath": "staticwebassets\\css\\info.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\inicio.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\inicio.css",
       "PackagePath": "staticwebassets\\css\\inicio.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\inventario.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\inventario.css",
       "PackagePath": "staticwebassets\\css\\inventario.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\login.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\leerpdf.css",
+      "PackagePath": "staticwebassets\\css\\leerpdf.css"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\mecanica.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\mecanica.css",
       "PackagePath": "staticwebassets\\css\\mecanica.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\mecatronica.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\mecatronica.css",
       "PackagePath": "staticwebassets\\css\\mecatronica.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\negocios.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\negocios.css",
       "PackagePath": "staticwebassets\\css\\negocios.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\restablecer-contraseña.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\restablecer-contraseña.css",
       "PackagePath": "staticwebassets\\css\\restablecer-contraseña.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\sanciones.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\revistas.css",
+      "PackagePath": "staticwebassets\\css\\revistas.css"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\sanciones.css",
       "PackagePath": "staticwebassets\\css\\sanciones.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\sanciones_admin.css",
+      "PackagePath": "staticwebassets\\css\\sanciones_admin.css"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\css\\tecnologias.css",
+      "PackagePath": "staticwebassets\\css\\tecnologias.css"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\BIBLIOTECA.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\BIBLIOTECA.jpg",
       "PackagePath": "staticwebassets\\images\\BIBLIOTECA.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\CatalogoLibros.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\CatalogoLibros.png",
       "PackagePath": "staticwebassets\\images\\CatalogoLibros.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\LOGO1.jpeg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\LOGO1.jpeg",
       "PackagePath": "staticwebassets\\images\\LOGO1.jpeg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\LOGO2.jpeg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\LOGO2.jpeg",
       "PackagePath": "staticwebassets\\images\\LOGO2.jpeg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\LogoSinFondo.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\LogoSinFondo.png",
       "PackagePath": "staticwebassets\\images\\LogoSinFondo.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\bio.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\bibliotecaN.png",
+      "PackagePath": "staticwebassets\\images\\bibliotecaN.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\bio.jpg",
       "PackagePath": "staticwebassets\\images\\bio.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\bio1.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\bio1.jpg",
       "PackagePath": "staticwebassets\\images\\bio1.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\bio2.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\bio2.jpg",
       "PackagePath": "staticwebassets\\images\\bio2.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\bio3.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\bio3.jpg",
       "PackagePath": "staticwebassets\\images\\bio3.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\biorev1.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\biorev1.jpg",
       "PackagePath": "staticwebassets\\images\\biorev1.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\biorev2.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\biorev2.jpg",
       "PackagePath": "staticwebassets\\images\\biorev2.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\biorev3.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\biorev3.jpg",
       "PackagePath": "staticwebassets\\images\\biorev3.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\carrera.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\carrera.png",
       "PackagePath": "staticwebassets\\images\\carrera.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\catalogo.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\castigoMeca.png",
+      "PackagePath": "staticwebassets\\images\\castigoMeca.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\catalogo.jpg",
       "PackagePath": "staticwebassets\\images\\catalogo.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\contacto.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\contacto.png",
       "PackagePath": "staticwebassets\\images\\contacto.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\contacto_a.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\contacto_a.png",
       "PackagePath": "staticwebassets\\images\\contacto_a.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\contacto_ama.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\contacto_ama.png",
       "PackagePath": "staticwebassets\\images\\contacto_ama.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\contacto_gri.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\contacto_az.png",
+      "PackagePath": "staticwebassets\\images\\contacto_az.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\contacto_gri.png",
       "PackagePath": "staticwebassets\\images\\contacto_gri.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\contacto_mor.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\contacto_mor.png",
       "PackagePath": "staticwebassets\\images\\contacto_mor.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\contacto_n.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\contacto_n.png",
       "PackagePath": "staticwebassets\\images\\contacto_n.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\contacto_v.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\contacto_v.png",
       "PackagePath": "staticwebassets\\images\\contacto_v.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\ebook.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\ebook.jpg",
       "PackagePath": "staticwebassets\\images\\ebook.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\email.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\email.png",
       "PackagePath": "staticwebassets\\images\\email.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\ene1.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\ene1.jpg",
       "PackagePath": "staticwebassets\\images\\ene1.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\ene2.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\ene2.jpg",
       "PackagePath": "staticwebassets\\images\\ene2.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\ene3.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\ene3.jpg",
       "PackagePath": "staticwebassets\\images\\ene3.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\facebook.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\facebook.png",
       "PackagePath": "staticwebassets\\images\\facebook.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\home.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\home.png",
       "PackagePath": "staticwebassets\\images\\home.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\homeI.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\homeI.png",
       "PackagePath": "staticwebassets\\images\\homeI.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\indu1.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\indu1.jpg",
       "PackagePath": "staticwebassets\\images\\indu1.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\indu2.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\indu2.jpg",
       "PackagePath": "staticwebassets\\images\\indu2.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\indu3.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\indu3.jpg",
       "PackagePath": "staticwebassets\\images\\indu3.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\industrial.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\industrial.jpg",
       "PackagePath": "staticwebassets\\images\\industrial.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\inicio_v.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\inicio_v.png",
       "PackagePath": "staticwebassets\\images\\inicio_v.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\instagram.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\instagram.png",
       "PackagePath": "staticwebassets\\images\\instagram.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\inventario.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\inventario.png",
       "PackagePath": "staticwebassets\\images\\inventario.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\libros.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\libros.png",
       "PackagePath": "staticwebassets\\images\\libros.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\libros_a.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\libros_a.png",
       "PackagePath": "staticwebassets\\images\\libros_a.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\libros_ama.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\libros_ama.png",
       "PackagePath": "staticwebassets\\images\\libros_ama.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\libros_gri.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\libros_az.png",
+      "PackagePath": "staticwebassets\\images\\libros_az.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\libros_gri.png",
       "PackagePath": "staticwebassets\\images\\libros_gri.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\libros_mor.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\libros_mor.png",
       "PackagePath": "staticwebassets\\images\\libros_mor.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\libros_n.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\libros_n.png",
       "PackagePath": "staticwebassets\\images\\libros_n.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\libros_v.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\libros_v.png",
       "PackagePath": "staticwebassets\\images\\libros_v.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\login.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\login.png",
       "PackagePath": "staticwebassets\\images\\login.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\login_a.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\login_a.png",
       "PackagePath": "staticwebassets\\images\\login_a.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\login_ama.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\login_ama.png",
       "PackagePath": "staticwebassets\\images\\login_ama.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\login_gri.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\login_az.png",
+      "PackagePath": "staticwebassets\\images\\login_az.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\login_gri.png",
       "PackagePath": "staticwebassets\\images\\login_gri.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\login_mor.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\login_mor.png",
       "PackagePath": "staticwebassets\\images\\login_mor.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\login_n.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\login_n.png",
       "PackagePath": "staticwebassets\\images\\login_n.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\login_v.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\login_v.png",
       "PackagePath": "staticwebassets\\images\\login_v.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\logo upvt.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\logo upvt.png",
       "PackagePath": "staticwebassets\\images\\logo upvt.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\logo_f.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\logo_f.jpg",
       "PackagePath": "staticwebassets\\images\\logo_f.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\meca1.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\meca1.jpg",
       "PackagePath": "staticwebassets\\images\\meca1.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\meca2.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\meca2.jpg",
       "PackagePath": "staticwebassets\\images\\meca2.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\meca3.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\meca3.jpg",
       "PackagePath": "staticwebassets\\images\\meca3.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\meca4.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\meca4.png",
       "PackagePath": "staticwebassets\\images\\meca4.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\mecanica.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\mecanica.jpg",
       "PackagePath": "staticwebassets\\images\\mecanica.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\mecatr1.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\mecatr1.jpg",
       "PackagePath": "staticwebassets\\images\\mecatr1.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\mecatr2.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\mecatr2.jpg",
       "PackagePath": "staticwebassets\\images\\mecatr2.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\mecatr3.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\mecatr3.jpg",
       "PackagePath": "staticwebassets\\images\\mecatr3.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\mecatronica.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\mecatronica.jpg",
       "PackagePath": "staticwebassets\\images\\mecatronica.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\nego1.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\nego1.jpg",
       "PackagePath": "staticwebassets\\images\\nego1.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\nego2.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\nego2.jpg",
       "PackagePath": "staticwebassets\\images\\nego2.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\nego3.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\nego3.jpg",
       "PackagePath": "staticwebassets\\images\\nego3.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\negocios.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\negocios.jpg",
       "PackagePath": "staticwebassets\\images\\negocios.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\nosotros.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\nosotros.png",
       "PackagePath": "staticwebassets\\images\\nosotros.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\periodico.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\periodico.jpg",
       "PackagePath": "staticwebassets\\images\\periodico.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\publicaciones.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\publicaciones.jpg",
       "PackagePath": "staticwebassets\\images\\publicaciones.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\recursos digitales.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\recursos digitales.jpg",
       "PackagePath": "staticwebassets\\images\\recursos digitales.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\registro.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\registro.png",
       "PackagePath": "staticwebassets\\images\\registro.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\revistaI.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\revistaI.png",
       "PackagePath": "staticwebassets\\images\\revistaI.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\revistas.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\revistaIn.png",
+      "PackagePath": "staticwebassets\\images\\revistaIn.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\revistaMecatro.png",
+      "PackagePath": "staticwebassets\\images\\revistaMecatro.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\revista_az.png",
+      "PackagePath": "staticwebassets\\images\\revista_az.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\revista_ne.png",
+      "PackagePath": "staticwebassets\\images\\revista_ne.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\revistas.jpg",
       "PackagePath": "staticwebassets\\images\\revistas.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\sancionesI.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\revistasB.png",
+      "PackagePath": "staticwebassets\\images\\revistasB.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\revistasMECA.png",
+      "PackagePath": "staticwebassets\\images\\revistasMECA.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\revistasN.png",
+      "PackagePath": "staticwebassets\\images\\revistasN.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\sancionIn.png",
+      "PackagePath": "staticwebassets\\images\\sancionIn.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\sancionMecatro.png",
+      "PackagePath": "staticwebassets\\images\\sancionMecatro.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\sancionesB.png",
+      "PackagePath": "staticwebassets\\images\\sancionesB.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\sancionesI.png",
       "PackagePath": "staticwebassets\\images\\sancionesI.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\tics.jpg",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\sancionesN.png",
+      "PackagePath": "staticwebassets\\images\\sancionesN.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\sanciones_az.png",
+      "PackagePath": "staticwebassets\\images\\sanciones_az.png"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\tec1.jpg",
+      "PackagePath": "staticwebassets\\images\\tec1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\tec2.jpg",
+      "PackagePath": "staticwebassets\\images\\tec2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\tec3.jpg",
+      "PackagePath": "staticwebassets\\images\\tec3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\tec4.jpg",
+      "PackagePath": "staticwebassets\\images\\tec4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\tics.jpg",
       "PackagePath": "staticwebassets\\images\\tics.jpg"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\images\\user_info.png",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\images\\user_info.png",
       "PackagePath": "staticwebassets\\images\\user_info.png"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\js\\carrusel.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\js\\carrusel.js",
       "PackagePath": "staticwebassets\\js\\carrusel.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\js\\submenu.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\js\\submenu.js",
       "PackagePath": "staticwebassets\\js\\submenu.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\1100319019\\Desktop\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca1\\Loboteca1\\wwwroot\\pdfs\\Libro1.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Libro1.pdf"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Loboteca1.Microsoft.AspNetCore.StaticWebAssets.props",

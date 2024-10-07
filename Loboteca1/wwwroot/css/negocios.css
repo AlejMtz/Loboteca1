@@ -10,6 +10,7 @@ body {
     background-color: #6A0DAD; /* Color morado oscuro para el menú superior */
     padding: 20px;
     text-align: center;
+    
 }
 
     .navbar h1 {
@@ -22,6 +23,7 @@ body {
     padding: 10px;
     text-align: center;
     background-color: #E0BBE4; /* Color morado claro para el menú secundario */
+    margin-top: 1cm;
 }
 
     .navbar2 ul {
@@ -68,6 +70,7 @@ body {
     width: 200px;
     margin: 0 auto;
     border-radius: 5px;
+    margin-top: 2cm;
 }
 
 /* Carousel Styles */
