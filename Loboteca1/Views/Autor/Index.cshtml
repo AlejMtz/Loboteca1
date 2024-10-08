@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Loboteca1.Models.AutorModel>
+
+@{
+    ViewData["Title"] = "Listado de Autores";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Nuevo Autor</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().apellido_paterno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().apellido_materno)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.apellido_paterno)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.apellido_materno)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.id" class="btn btn-warning">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@item.id" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

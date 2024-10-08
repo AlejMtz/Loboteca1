@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Loboteca1.Models.AdministradorModel>
+
+@{
+    ViewData["Title"] = "Lista de Administradores";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido Paterno</th>
+            <th>Apellido Materno</th>
+            <th>Número de Empleado</th>
+            <th>Fecha de Inicio</th>
+            <th>Fecha de Término</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nombre</td>
+                <td>@item.apellido_paterno</td>
+                <td>@item.apellido_materno</td>
+                <td>@item.numero_de_empleado</td>
+                <td>@item.fecha_de_inicio?.ToString("yyyy-MM-dd")</td>
+                <td>@item.fecha_de_termino?.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-success">Crear Nuevo Administrador</a>

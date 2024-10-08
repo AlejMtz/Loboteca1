@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Loboteca1",
     "\\Loboteca1\\Views",
-    "\\Loboteca1\\Views\\Busqueda",
-    "\\Loboteca1\\Views\\Mecatronica",
-    "\\Loboteca1\\wwwroot"
+    "\\Loboteca1\\Views\\Editorial"
   ],
-  "SelectedNode": "\\Loboteca1.sln",
+  "SelectedNode": "\\Loboteca1\\Views\\Editorial\\Create.cshtml",
   "PreviewInSolutionExplorer": false
 }

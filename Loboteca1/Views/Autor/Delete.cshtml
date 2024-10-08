@@ -1,0 +1,40 @@
+﻿@model Loboteca1.Models.AutorModel
+
+@{
+    ViewData["Title"] = "Eliminar Autor";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h3>¿Está seguro de que desea eliminar este autor?</h3>
+
+<div>
+    <h4>Autor</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.apellido_paterno)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.apellido_paterno)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.apellido_materno)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.apellido_materno)
+        </dd>
+    </dl>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="id" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Index">Cancelar</a>
+    </form>
+</div>
