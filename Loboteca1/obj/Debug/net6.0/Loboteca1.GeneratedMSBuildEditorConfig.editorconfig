@@ -9,115 +9,195 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Loboteca1
 build_property.RootNamespace = Loboteca1
-build_property.ProjectDir = C:\Users\1100319019\Documents\GitHub\Loboteca1\Loboteca1\
+build_property.ProjectDir = C:\Users\aleja\Downloads\Loboteca\Loboteca1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\1100319019\Documents\GitHub\Loboteca1\Loboteca1
+build_property.MSBuildProjectDirectory = C:\Users\aleja\Downloads\Loboteca\Loboteca1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Altas/Altas.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Administrador/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Administrador/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Administrador/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Administrador/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Altas/Altas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx0YXNcQWx0YXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Biotecnologia/Biotecnologia.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Autor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Autor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3JcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Autor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Autor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Biotecnologia/Biotecnologia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlvdGVjbm9sb2dpYVxCaW90ZWNub2xvZ2lhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Busqueda/Busqueda.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Busqueda/Busqueda.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzcXVlZGFcQnVzcXVlZGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Energia/Energia.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Carrera/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Carrera/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Carrera/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Carrera/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmVyYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/ConfiguracionPenalizaciones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhY2lvblBlbmFsaXphY2lvbmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/ConfiguracionPenalizaciones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhY2lvblBlbmFsaXphY2lvbmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/ConfiguracionPenalizaciones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhY2lvblBlbmFsaXphY2lvbmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/ConfiguracionPenalizaciones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhY2lvblBlbmFsaXphY2lvbmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Editorial/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yaWFsXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Editorial/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yaWFsXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Editorial/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yaWFsXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Editorial/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yaWFsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Energia/Energia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5lcmdpYVxFbmVyZ2lhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Home/Index.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Home/Privacy.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Industrial/Industrial.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Industrial/Industrial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kdXN0cmlhbFxJbmR1c3RyaWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Industri/Industri.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Industri/Industri.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kdXN0cmlcSW5kdXN0cmkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Info_user/Info_user.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Info_user/Info_user.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb191c2VyXEluZm9fdXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Inicio.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Inicio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Inventario/Inventario.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Inventario/Inventario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb1xJbnZlbnRhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Login/Login.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Login/RestablecerContraseña.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Login/RestablecerContraseña.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVzdGFibGVjZXJDb250cmFzZcOxYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Mecanica/Mecanica.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Mecanica/Mecanica.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVjYW5pY2FcTWVjYW5pY2EuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Mecatronica/Mecatronica.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Mecatronica/Mecatronica.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVjYXRyb25pY2FcTWVjYXRyb25pY2EuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Negocios/LeerPDF.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Negocios/LeerPDF.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmVnb2Npb3NcTGVlclBERi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Negocios/Negocios.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Negocios/Negocios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmVnb2Npb3NcTmVnb2Npb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Revistas/Revistas.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Revistas/Revistas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aXN0YXNcUmV2aXN0YXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Sanciones/Sanciones.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Sanciones/Sanciones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuY2lvbmVzXFNhbmNpb25lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Sanciones_admin/Sanciones_admin.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Sanciones_admin/Sanciones_admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuY2lvbmVzX2FkbWluXFNhbmNpb25lc19hZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Shared/Error.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Tecnologias/Tecnologias.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Tecnologias/Tecnologias.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjbm9sb2dpYXNcVGVjbm9sb2dpYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/_ViewImports.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/_ViewStart.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/1100319019/Documents/GitHub/Loboteca1/Loboteca1/Views/Shared/_Layout.cshtml]
+[C:/Users/aleja/Downloads/Loboteca/Loboteca1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5nc0wjf337

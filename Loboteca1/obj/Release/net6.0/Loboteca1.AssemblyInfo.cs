@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Loboteca1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a51ff824a1b38cd10d45af6cb1509e0ce9996823")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abe3e1e231557469d410b564ae914d9ba8663f59")]
 [assembly: System.Reflection.AssemblyProductAttribute("Loboteca1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Loboteca1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

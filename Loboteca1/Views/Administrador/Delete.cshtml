@@ -1,0 +1,57 @@
+﻿@model Loboteca1.Models.AdministradorModel
+
+@{
+    ViewData["Title"] = "Eliminar Administrador";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h3>¿Seguro que desea eliminar este administrador?</h3>
+<div>
+    <h4>Administrador</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Nombre
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Nombre
+        </dd>
+        <dt class="col-sm-2">
+            Apellido Paterno
+        </dt>
+        <dd class="col-sm-10">
+            @Model.apellido_paterno
+        </dd>
+        <dt class="col-sm-2">
+            Apellido Materno
+        </dt>
+        <dd class="col-sm-10">
+            @Model.apellido_materno
+        </dd>
+        <dt class="col-sm-2">
+            Número de Empleado
+        </dt>
+        <dd class="col-sm-10">
+            @Model.numero_de_empleado
+        </dd>
+        <dt class="col-sm-2">
+            Fecha de Inicio
+        </dt>
+        <dd class="col-sm-10">
+            @Model.fecha_de_inicio?.ToString("yyyy-MM-dd")
+        </dd>
+        <dt class="col-sm-2">
+            Fecha de Término
+        </dt>
+        <dd class="col-sm-10">
+            @Model.fecha_de_termino?.ToString("yyyy-MM-dd")
+        </dd>
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>
