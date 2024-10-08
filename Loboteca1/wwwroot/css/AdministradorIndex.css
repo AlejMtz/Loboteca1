@@ -1,0 +1,89 @@
+﻿/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #781c2e;
+    padding: 4px;
+    text-align: center;
+    color: white;
+}
+
+/* Sección principal */
+h2 {
+    text-align: center;
+    color: #781c2e;
+    margin-bottom: 20px;
+}
+
+/* Estilos de la tabla */
+.table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+    .table th {
+        background-color: #781c2e;
+        color: white;
+        padding: 12px;
+        font-size: 18px;
+        border-bottom: 2px solid #ddd;
+    }
+
+    .table td {
+        padding: 12px;
+        text-align: center;
+        font-size: 16px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .table tr:hover {
+        background-color: #f2f2f2;
+    }
+
+/* Botones */
+.btn {
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 4px;
+}
+
+.btn-primary {
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-success {
+    background-color: #781c2e;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    background-color: #781c2e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

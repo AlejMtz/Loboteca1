@@ -1,0 +1,96 @@
+﻿/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #781c2e;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de la tabla */
+.table-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table th {
+        background-color: #781c2e;
+        color: white;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .table td {
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+
+.table-striped tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Botones */
+.btn-crear {
+    background-color: #781c2e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+    .btn-crear:hover {
+        background-color: #993333;
+    }
+
+.btn-warning, .btn-danger {
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-warning {
+    background-color: #ffcc00;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+}
+
+.btn-warning:hover {
+    background-color: #ffbb33;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c;
+}
+
+/* Pie de página */
+footer {
+    background-color: #781c2e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
