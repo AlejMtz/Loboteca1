@@ -3,48 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\views\\energia\\energia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\views\\energia\\energia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\wwwroot\\css\\autorcreate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\wwwroot\\css\\autorcreate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\views\\carrera\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\views\\carrera\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\views\\autor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\views\\autor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\views\\carrera\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\views\\carrera\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\views\\autor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\views\\autor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\controllers\\carreracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\controllers\\carreracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\wwwroot\\css\\autorindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\wwwroot\\css\\autorindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\views\\carrera\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\views\\carrera\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\wwwroot\\css\\inicio.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\wwwroot\\css\\inicio.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\views\\configuracionpenalizaciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\views\\configuracionpenalizaciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\models\\carreramodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\models\\carreramodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\models\\lobotecacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\models\\lobotecacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\views\\carrera\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\views\\carrera\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|c:\\users\\1100319019\\documents\\github\\loboteca123\\loboteca1\\loboteca1\\views\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25E57B6E-2F59-4FD9-86F2-6CB0FFA6243F}|Loboteca1\\Loboteca1.csproj|solutionrelative:loboteca1\\views\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,147 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Energia.cshtml",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Energia\\Energia.cshtml",
-              "RelativeDocumentMoniker": "Loboteca1\\Views\\Energia\\Energia.cshtml",
-              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Energia\\Energia.cshtml",
-              "RelativeToolTip": "Loboteca1\\Views\\Energia\\Energia.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T03:28:12.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\appsettings.json",
-              "RelativeDocumentMoniker": "Loboteca1\\appsettings.json",
-              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\appsettings.json",
-              "RelativeToolTip": "Loboteca1\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-09T03:20:39.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Carrera\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Loboteca1\\Views\\Carrera\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Carrera\\Delete.cshtml",
-              "RelativeToolTip": "Loboteca1\\Views\\Carrera\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T06:34:58.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Carrera\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Loboteca1\\Views\\Carrera\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Carrera\\Edit.cshtml",
-              "RelativeToolTip": "Loboteca1\\Views\\Carrera\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T06:34:39.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Carrera\\Create.cshtml",
-              "RelativeDocumentMoniker": "Loboteca1\\Views\\Carrera\\Create.cshtml",
-              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Carrera\\Create.cshtml",
-              "RelativeToolTip": "Loboteca1\\Views\\Carrera\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Autor\\Create.cshtml",
+              "RelativeDocumentMoniker": "Loboteca1\\Views\\Autor\\Create.cshtml",
+              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Autor\\Create.cshtml",
+              "RelativeToolTip": "Loboteca1\\Views\\Autor\\Create.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T06:34:12.147Z",
+              "WhenOpened": "2024-10-09T04:35:26.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutorCreate.css",
+              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\wwwroot\\css\\AutorCreate.css",
+              "RelativeDocumentMoniker": "Loboteca1\\wwwroot\\css\\AutorCreate.css",
+              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\wwwroot\\css\\AutorCreate.css",
+              "RelativeToolTip": "Loboteca1\\wwwroot\\css\\AutorCreate.css",
+              "ViewState": "AgIAADgAAAAAAAAAAAAmwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-09T04:35:04.288Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CarreraController.cs",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Controllers\\CarreraController.cs",
-              "RelativeDocumentMoniker": "Loboteca1\\Controllers\\CarreraController.cs",
-              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Controllers\\CarreraController.cs",
-              "RelativeToolTip": "Loboteca1\\Controllers\\CarreraController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAiwIAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T06:33:25.022Z",
+              "Title": "AutorIndex.css",
+              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\wwwroot\\css\\AutorIndex.css",
+              "RelativeDocumentMoniker": "Loboteca1\\wwwroot\\css\\AutorIndex.css",
+              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\wwwroot\\css\\AutorIndex.css",
+              "RelativeToolTip": "Loboteca1\\wwwroot\\css\\AutorIndex.css",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAmwJEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-09T04:26:44.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CarreraModel.cs",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Models\\CarreraModel.cs",
-              "RelativeDocumentMoniker": "Loboteca1\\Models\\CarreraModel.cs",
-              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Models\\CarreraModel.cs",
-              "RelativeToolTip": "Loboteca1\\Models\\CarreraModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T06:32:19.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Program.cs",
-              "RelativeDocumentMoniker": "Loboteca1\\Program.cs",
-              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Program.cs",
-              "RelativeToolTip": "Loboteca1\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAmwF8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T20:52:00.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\ConfiguracionPenalizaciones\\Create.cshtml",
-              "RelativeDocumentMoniker": "Loboteca1\\Views\\ConfiguracionPenalizaciones\\Create.cshtml",
-              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\ConfiguracionPenalizaciones\\Create.cshtml",
-              "RelativeToolTip": "Loboteca1\\Views\\ConfiguracionPenalizaciones\\Create.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T01:17:03.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LobotecaContext.cs",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Models\\LobotecaContext.cs",
-              "RelativeDocumentMoniker": "Loboteca1\\Models\\LobotecaContext.cs",
-              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Models\\LobotecaContext.cs",
-              "RelativeToolTip": "Loboteca1\\Models\\LobotecaContext.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAmwCcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T21:02:36.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Carrera\\Index.cshtml",
-              "RelativeDocumentMoniker": "Loboteca1\\Views\\Carrera\\Index.cshtml",
-              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Carrera\\Index.cshtml",
-              "RelativeToolTip": "Loboteca1\\Views\\Carrera\\Index.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Autor\\Index.cshtml",
+              "RelativeDocumentMoniker": "Loboteca1\\Views\\Autor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Autor\\Index.cshtml",
+              "RelativeToolTip": "Loboteca1\\Views\\Autor\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T06:35:24.652Z"
+              "WhenOpened": "2024-10-09T04:12:46.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "inicio.css",
+              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\wwwroot\\css\\inicio.css",
+              "RelativeDocumentMoniker": "Loboteca1\\wwwroot\\css\\inicio.css",
+              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\wwwroot\\css\\inicio.css",
+              "RelativeToolTip": "Loboteca1\\wwwroot\\css\\inicio.css",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-09T04:25:32.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Inicio.cshtml",
+              "DocumentMoniker": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Inicio.cshtml",
+              "RelativeDocumentMoniker": "Loboteca1\\Views\\Inicio.cshtml",
+              "ToolTip": "C:\\Users\\1100319019\\Documents\\GitHub\\Loboteca123\\Loboteca1\\Loboteca1\\Views\\Inicio.cshtml",
+              "RelativeToolTip": "Loboteca1\\Views\\Inicio.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T04:23:11.985Z",
+              "EditorCaption": ""
             }
           ]
         }
