@@ -4,7 +4,6 @@
     {
         public int Id { get; set; }
         public int IdEstado { get; set; }
-        public EstadoModel Estado { get; set; } // Relación con EstadoModel
         public int IdAlumno { get; set; }
         public AlumnoModel Alumno { get; set; } // Relación con AlumnoModel
         public int IdPrestamo { get; set; }

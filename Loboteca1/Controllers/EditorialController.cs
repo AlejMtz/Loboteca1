@@ -1,7 +1,7 @@
 ﻿using Loboteca1.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Loboteca1.Controllers
@@ -15,18 +15,21 @@ namespace Loboteca1.Controllers
             _context = context;
         }
 
+        // Listado de editoriales
         public async Task<IActionResult> Index()
         {
-            var editoriales = await _context.Editorial.Include(e => e.Estado).ToListAsync();
+            var editoriales = await _context.Editorial.ToListAsync();
             return View(editoriales);
         }
 
-        public async Task<IActionResult> Create()
+        // Crear Editorial - GET
+        public IActionResult Create()
         {
-            ViewBag.EstadoId = new SelectList(await _context.Estado.ToListAsync(), "Id", "Nombre");
+            ViewBag.Estados = new[] { "Disponible", "No Disponible" }; // Valores del ComboBox
             return View();
         }
 
+        // Crear Editorial - POST
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(EditorialModel editorial)
@@ -37,32 +40,34 @@ namespace Loboteca1.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewBag.EstadoId = new SelectList(await _context.Estado.ToListAsync(), "Id", "Nombre", editorial.Id_Estado);
+            ViewBag.Estados = new[] { "Disponible", "No Disponible" };
             return View(editorial);
         }
 
-        public async Task<IActionResult> Edit(int? Id)
+        // Editar Editorial - GET
+        public async Task<IActionResult> Edit(int? id)
         {
-            if (Id == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var editorial = await _context.Editorial.FindAsync(Id);
+            var editorial = await _context.Editorial.FindAsync(id);
             if (editorial == null)
             {
                 return NotFound();
             }
 
-            ViewBag.EstadoId = new SelectList(await _context.Estado.ToListAsync(), "Id", "Nombre", editorial.Id_Estado);
+            ViewBag.Estados = new[] { "Disponible", "No Disponible" };
             return View(editorial);
         }
 
+        // Editar Editorial - POST
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int Id, EditorialModel editorial)
+        public async Task<IActionResult> Edit(int id, EditorialModel editorial)
         {
-            if (Id != editorial.Id)
+            if (id != editorial.Id)
             {
                 return NotFound();
             }
@@ -88,20 +93,19 @@ namespace Loboteca1.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            ViewBag.EstadoId = new SelectList(await _context.Estado.ToListAsync(), "Id", "Nombre", editorial.Id_Estado);
+            ViewBag.Estados = new[] { "Disponible", "No Disponible" };
             return View(editorial);
         }
 
-        public async Task<IActionResult> Delete(int? Id)
+        // Eliminar Editorial - GET
+        public async Task<IActionResult> Delete(int? id)
         {
-            if (Id == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var editorial = await _context.Editorial
-                .Include(e => e.Estado)
-                .FirstOrDefaultAsync(m => m.Id == Id);
+            var editorial = await _context.Editorial.FirstOrDefaultAsync(m => m.Id == id);
             if (editorial == null)
             {
                 return NotFound();
@@ -110,19 +114,20 @@ namespace Loboteca1.Controllers
             return View(editorial);
         }
 
+        // Eliminar Editorial - POST
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int Id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var editorial = await _context.Editorial.FindAsync(Id);
+            var editorial = await _context.Editorial.FindAsync(id);
             _context.Editorial.Remove(editorial);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool EditorialExists(int Id)
+        private bool EditorialExists(int id)
         {
-            return _context.Editorial.Any(e => e.Id == Id);
+            return _context.Editorial.Any(e => e.Id == id);
         }
     }
 }

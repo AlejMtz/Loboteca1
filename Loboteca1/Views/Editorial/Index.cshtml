@@ -13,8 +13,8 @@
 <table class="table">
     <thead>
         <tr>
-            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Nombre)</th>
-            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Estado.Nombre)</th>
+            <th>Nombre</th>
+            <th>Estado</th>
             <th></th>
         </tr>
     </thead>
@@ -23,7 +23,7 @@
         {
             <tr>
                 <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
-                <td>@Html.DisplayFor(modelItem => item.Estado.Nombre)</td>
+                <td>@Html.DisplayFor(modelItem => item.Estado)</td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Editar</a> |
                     <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a>

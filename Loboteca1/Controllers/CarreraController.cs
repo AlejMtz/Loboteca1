@@ -1,6 +1,5 @@
 ﻿using Loboteca1.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
@@ -18,14 +17,14 @@ namespace Loboteca1.Controllers
         // Listado de carreras
         public async Task<IActionResult> Index()
         {
-            var carreras = await _context.Carreras.Include(c => c.Estado).ToListAsync();
+            var carreras = await _context.Carreras.ToListAsync();
             return View(carreras);
         }
 
         // Acción para mostrar el formulario de creación
-        public async Task<IActionResult> Create()
+        public IActionResult Create()
         {
-            ViewBag.EstadoId = new SelectList(await _context.Estado.ToListAsync(), "Id", "Nombre");
+            // No necesitas cargar estados aquí, ya que están hardcodeados en el comboBox
             return View();
         }
 
@@ -40,7 +39,6 @@ namespace Loboteca1.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewBag.EstadoId = new SelectList(await _context.Estado.ToListAsync(), "Id", "Nombre", carrera.Id_estado);
             return View(carrera);
         }
 
@@ -58,15 +56,14 @@ namespace Loboteca1.Controllers
                 return NotFound();
             }
 
-            ViewBag.EstadoId = new SelectList(await _context.Estado.ToListAsync(), "Id", "Nombre", carrera.Id_estado);
-            return View(carrera);
+            return View(carrera);  // Pasas la carrera al modelo Edit directamente
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, CarreraModel carrera)
         {
-            if (id != carrera.Id)
+            if (id != carrera.id)
             {
                 return NotFound();
             }
@@ -80,7 +77,7 @@ namespace Loboteca1.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CarreraExists(carrera.Id))
+                    if (!CarreraExists(carrera.id))
                     {
                         return NotFound();
                     }
@@ -92,7 +89,6 @@ namespace Loboteca1.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            ViewBag.EstadoId = new SelectList(await _context.Estado.ToListAsync(), "Id", "Nombre", carrera.Id_estado);
             return View(carrera);
         }
 
@@ -105,8 +101,7 @@ namespace Loboteca1.Controllers
             }
 
             var carrera = await _context.Carreras
-                .Include(c => c.Estado)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.id == id);
             if (carrera == null)
             {
                 return NotFound();
@@ -127,7 +122,7 @@ namespace Loboteca1.Controllers
 
         private bool CarreraExists(int id)
         {
-            return _context.Carreras.Any(e => e.Id == id);
+            return _context.Carreras.Any(e => e.id == id);
         }
     }
 }

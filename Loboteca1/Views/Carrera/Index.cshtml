@@ -13,8 +13,8 @@
 <table class="table">
     <thead>
         <tr>
-            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Nombre_de_la_carrera)</th>
-            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Estado.Nombre)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().nombre_de_la_carrera)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().estado)</th>
             <th></th>
         </tr>
     </thead>
@@ -22,11 +22,11 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>@Html.DisplayFor(modelItem => item.Nombre_de_la_carrera)</td>
-                <td>@Html.DisplayFor(modelItem => item.Estado.Nombre)</td>
+                <td>@Html.DisplayFor(modelItem => item.nombre_de_la_carrera)</td>
+                <td>@Html.DisplayFor(modelItem => item.estado)</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Editar</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a>
+                    <a asp-action="Edit" asp-route-id="@item.id" class="btn btn-warning">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@item.id" class="btn btn-danger">Eliminar</a>
                 </td>
             </tr>
         }

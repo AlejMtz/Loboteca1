@@ -8,7 +8,6 @@
         public DateTime FechaDePublicacion { get; set; }
         public string Genero { get; set; }
         public int IdEstado { get; set; }
-        public EstadoModel Estado { get; set; } // Relación con EstadoModel
         public string RutaImagen { get; set; }
         public int Stock { get; set; }
         public DateTime FechaDeAlta { get; set; }

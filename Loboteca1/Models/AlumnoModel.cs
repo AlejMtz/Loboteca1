@@ -9,7 +9,5 @@
         public string Matricula { get; set; }
         public int IdCarrera { get; set; }
         public CarreraModel Carrera { get; set; } // Relación con CarreraModel
-        public int IdEstado { get; set; }
-        public EstadoModel Estado { get; set; } // Relación con EstadoModel
     }
 }
