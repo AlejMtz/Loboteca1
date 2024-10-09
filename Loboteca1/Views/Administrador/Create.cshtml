@@ -1,49 +1,91 @@
 ﻿@model Loboteca1.Models.AdministradorModel
 
 @{
-    ViewData["Title"] = "Crear Nuevo Administrador";
+    Layout = null;
 }
 
+<!DOCTYPE html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Nuevo Administrador</title>
     <link rel="stylesheet" href="~/css/AdministradorCreate.css" />
 </head>
+<body>
 
-<h2>@ViewData["Title"]</h2>
+    <!-- Encabezado principal -->
+    <header>
+        <nav class="navbar">
+            <ul class="logo-left">
+                <li>
+                    <img src="~/images/logo.png" alt="Logo" class="logo">
+                </li>
+            </ul>
+            <h1>LOBOTECA</h1>
+            <ul class="account-right">
+                <li>
+                    <img src="~/images/cuenta.png" alt="Cuenta" class="icono">
+                    <a href="@Url.Action("Perfil", "Perfil")">Cuenta</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-<form asp-action="Create" method="post">
-    <div class="form-group">
-        <label asp-for="Nombre" class="control-label">Nombre</label>
-        <input asp-for="Nombre" class="form-control" />
-        <span asp-validation-for="Nombre" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="apellido_paterno" class="control-label">Apellido Paterno</label>
-        <input asp-for="apellido_paterno" class="form-control" />
-        <span asp-validation-for="apellido_paterno" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="apellido_materno" class="control-label">Apellido Materno</label>
-        <input asp-for="apellido_materno" class="form-control" />
-        <span asp-validation-for="apellido_materno" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="numero_de_empleado" class="control-label">No.Empleado</label>
-        <input asp-for="numero_de_empleado" class="form-control" />
-        <span asp-validation-for="numero_de_empleado" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="fecha_de_inicio" class="control-label">Fecha de inico</label>
-        <input asp-for="fecha_de_inicio" type="date" class="form-control" />
-        <span asp-validation-for="fecha_de_inicio" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="fecha_de_termino" class="control-label">Fecha de termino</label>
-        <input asp-for="fecha_de_termino" type="date" class="form-control" />
-        <span asp-validation-for="fecha_de_termino" class="text-danger"></span>
-    </div>
-    <button type="submit" class="btn btn-success">Crear</button>
-</form>
+    <main>
+        <section class="main-section">
+            <h2>Crear Nuevo Administrador</h2>
 
-<div>
-    <a asp-action="Index" class="btn btn-secondary">Regresar a la lista</a>
-</div>
+            <!-- Formulario de altas -->
+            <div class="formulario-altas">
+                <form asp-action="Create" method="post">
+                    <div class="form-group">
+                        <label asp-for="Nombre" class="control-label">Nombre</label>
+                        <input asp-for="Nombre" class="form-control" />
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="apellido_paterno" class="control-label">Apellido Paterno</label>
+                        <input asp-for="apellido_paterno" class="form-control" />
+                        <span asp-validation-for="apellido_paterno" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="apellido_materno" class="control-label">Apellido Materno</label>
+                        <input asp-for="apellido_materno" class="form-control" />
+                        <span asp-validation-for="apellido_materno" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="numero_de_empleado" class="control-label">No.Empleado</label>
+                        <input asp-for="numero_de_empleado" class="form-control" />
+                        <span asp-validation-for="numero_de_empleado" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="fecha_de_inicio" class="control-label">Fecha de inicio</label>
+                        <input asp-for="fecha_de_inicio" type="date" class="form-control" />
+                        <span asp-validation-for="fecha_de_inicio" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="fecha_de_termino" class="control-label">Fecha de término</label>
+                        <input asp-for="fecha_de_termino" type="date" class="form-control" />
+                        <span asp-validation-for="fecha_de_termino" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-success">Crear</button>
+                </form>
+
+                <a asp-action="Index" class="btn btn-secondary">Regresar a la lista</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; Derechos Reservados Universidad Politécnica del Valle de Toluca</p>
+        <div class="social-icons">
+            <a href="#"><img src="~/images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="~/images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="~/images/email.png" alt="Correo"></a>
+        </div>
+    </footer>
+
+</body>
+</html>

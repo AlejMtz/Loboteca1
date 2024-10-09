@@ -8,47 +8,76 @@ body {
 /* Barra de navegación */
 .navbar {
     background-color: #781c2e;
-    padding: 10px;
-    text-align: center;
+    padding: 30px;
     color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-    .navbar ul {
-        list-style: none;
-        padding: 0;
+    /* Ajuste del h1 (mueve el texto hacia la derecha sin superponerse con el logo) */
+    .navbar h1 {
+        color: white;
         margin: 0;
-        display: flex;
-        justify-content: center;
+        margin-left: 1.5cm; /* Mueve el texto para que no se superponga con el logo */
     }
 
-        .navbar ul li {
-            margin: 0 20px;
-            display: flex;
-            align-items: center;
-            position: relative;
-            top: -10px; /* Mueve el contenedor hacia arriba 1 cm */
-            right: -80px;
+/* Logo a la izquierda */
+.logo-left {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10px; /* Ajusta la distancia desde el borde izquierdo */
+    top: 3px;
+}
+
+.logo {
+    width: 80px; /* Agranda el logo */
+    height: 80px; /* Ajusta la altura del logo */
+    object-fit: contain; /* Asegura que la imagen mantenga su proporción dentro del tamaño definido */
+}
+
+/* Cuenta a la derecha */
+.account-right {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px; /* Ajusta la distancia desde el borde derecho */
+    top: 16px;
+}
+
+    .account-right li {
+        margin: 0 20px;
+        display: flex;
+        align-items: center;
+    }
+
+        .account-right li img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
         }
 
-            .navbar ul li img {
-                width: 30px;
-                height: 30px;
-                margin-right: 10px;
-            }
+        .account-right li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block;
+            text-align: center;
+        }
 
-            .navbar ul li a {
-                color: white;
-                text-decoration: none;
-                font-size: 18px;
-                display: inline-block;
-                text-align: center;
+            .account-right li a:hover {
+                background-color: #D291BC;
+                border-radius: 5px;
+                padding: 5px;
             }
-
-                .navbar ul li a:hover {
-                    background-color: #D291BC;
-                    border-radius: 5px;
-                    padding: 5px;
-                }
 
 /* Contenido principal */
 .main-section {
@@ -118,19 +147,27 @@ h2 {
 .btn-success {
     background-color: #781c2e;
     color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    top: 40px;
+    left: 150px;
 }
 
-.btn:hover {
-    opacity: 0.8;
-}
+    .btn-success:hover {
+        opacity: 0.8;
+    }
 
 /* Footer */
 footer {
-    background-color: #6A0DAD;
+    background-color: #781c2e;
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
     footer p {

@@ -18,11 +18,11 @@ body {
 
     .navbar h1 {
         color: white;
+        text-align: center;
         margin: 0;
         margin-left: 1.5cm;
     }
 
-/* Logo a la izquierda */
 .logo-left {
     list-style: none;
     padding: 0;
@@ -40,7 +40,6 @@ body {
     object-fit: contain;
 }
 
-/* Cuenta a la derecha */
 .account-right {
     list-style: none;
     padding: 0;
@@ -83,43 +82,44 @@ body {
     padding: 20px;
 }
 
-h2 {
+h2.section-title {
     text-align: center;
     color: #781c2e;
     margin-bottom: 20px;
 }
 
-/* Formulario de alta */
-.formulario-altas {
+/* Formulario de eliminación */
+.formulario-eliminar {
     width: 50%;
     margin: 0 auto;
     padding: 30px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    text-align: center;
 }
 
-    .formulario-altas label {
-        display: block;
-        font-size: 18px;
-        margin-bottom: 10px;
+    .formulario-eliminar h3 {
         color: #781c2e;
     }
 
-    .formulario-altas input[type="text"],
-    .formulario-altas input[type="date"] {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 15px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
+.info-admin h4 {
+    color: #781c2e;
+    text-align: left;
+    margin-bottom: 10px;
+}
 
-    .formulario-altas .text-danger {
-        color: #d9534f;
-    }
+dl.row {
+    text-align: left;
+    margin: 0 auto;
+}
 
-/* Botones */
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .btn {
     padding: 8px 16px;
     border-radius: 5px;
@@ -129,17 +129,17 @@ h2 {
     margin: 4px;
 }
 
-.btn-primary, .btn-success, .btn-secondary {
-    background-color: #781c2e;
+.btn-danger {
+    background-color: #f44336;
     color: white;
-    padding: 8px 16px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
 }
 
-    .btn-primary:hover, .btn-success:hover, .btn-secondary:hover {
+.btn-secondary {
+    background-color: #781c2e;
+    color: white;
+}
+
+    .btn-danger:hover, .btn-secondary:hover {
         opacity: 0.8;
     }
 
