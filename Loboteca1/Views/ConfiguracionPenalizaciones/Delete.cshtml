@@ -1,35 +1,74 @@
 ﻿@model Loboteca1.Models.ConfiguracionPenalizacionesModel
 
 @{
+    Layout = null;
     ViewData["Title"] = "Eliminar Penalización";
 }
 
-<h2>@ViewData["Title"]</h2>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/PenalizacionesDelete.css" />
+</head>
+<body>
 
-<h3>¿Estás seguro que deseas eliminar esta penalización?</h3>
-<div>
-    <h4>Penalización</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.nombre)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.nombre)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.monto)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.monto)
-        </dd>
-    </dl>
+    <!-- Encabezado principal -->
+    <header>
+        <nav class="navbar">
+            <ul class="logo-left">
+                <li>
+                    <img src="~/images/logo.png" alt="Logo" class="logo">
+                </li>
+            </ul>
+            <h1>LOBOTECA</h1>
+            <ul class="account-right">
+                <li>
+                    <img src="~/images/cuenta.png" alt="Cuenta" class="icono">
+                    <a href="@Url.Action("Perfil", "Perfil")">Cuenta</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-    <form asp-action="Delete" method="post">
-        <input type="hidden" asp-for="id_penalizacion" />
-        <div>
-            <input type="submit" value="Eliminar" class="btn btn-danger" /> |
-            <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    <main>
+        <section class="formulario-altas">
+            <h2 class="section-title">@ViewData["Title"]</h2>
+
+            <h3>¿Estás seguro que deseas eliminar esta penalización?</h3>
+            <div class="detalle-penalizacion">
+                <h4>Penalización</h4>
+                <hr />
+                <dl class="row">
+                    <dt class="col-sm-4">Nombre</dt>
+                    <dd class="col-sm-8">@Model.nombre</dd>
+
+                    <dt class="col-sm-4">Monto</dt>
+                    <dd class="col-sm-8">@Model.monto</dd>
+                </dl>
+
+                <form asp-action="Delete" method="post">
+                    <input type="hidden" asp-for="id_penalizacion" />
+                    <div class="botones">
+                        <input type="submit" value="Eliminar" class="btn btn-danger" />
+                        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; Derechos Reservados Universidad Politécnica del Valle de Toluca</p>
+        <div class="social-icons">
+            <a href="#"><img src="~/images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="~/images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="~/images/email.png" alt="Correo"></a>
         </div>
-    </form>
-</div>
+    </footer>
+
+</body>
+</html>

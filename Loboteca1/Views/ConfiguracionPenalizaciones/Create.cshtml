@@ -1,27 +1,70 @@
 ﻿@model Loboteca1.Models.ConfiguracionPenalizacionesModel
 
 @{
+    Layout = null;
     ViewData["Title"] = "Crear Nueva Penalización";
 }
 
-<h2>@ViewData["Title"]</h2>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/PenalizacionesCreate.css" />
+</head>
+<body>
 
-<form asp-action="Create" method="post">
-    <div class="form-group">
-        <label asp-for="nombre" class="control-label">Nombre</label>
-        <input asp-for="nombre" class="form-control" />
-        <span asp-validation-for="nombre" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="monto" class="control-label">Monto</label>
-        <input asp-for="monto" class="form-control" />
-        <span asp-validation-for="monto" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <input type="submit" value="Crear" class="btn btn-primary" />
-    </div>
-</form>
+    <!-- Encabezado principal -->
+    <header>
+        <nav class="navbar">
+            <ul class="logo-left">
+                <li>
+                    <img src="~/images/logo.png" alt="Logo" class="logo">
+                </li>
+            </ul>
+            <h1>LOBOTECA</h1>
+            <ul class="account-right">
+                <li>
+                    <img src="~/images/cuenta.png" alt="Cuenta" class="icono">
+                    <a href="@Url.Action("Perfil", "Perfil")">Cuenta</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-<div>
-    <a asp-action="Index">Volver a la lista</a>
-</div>
+    <main>
+        <section class="formulario-altas">
+            <h2 class="section-title">@ViewData["Title"]</h2>
+
+            <form asp-action="Create" method="post">
+                <div class="form-group">
+                    <label asp-for="nombre" class="control-label">Nombre</label>
+                    <input asp-for="nombre" class="form-control" />
+                    <span asp-validation-for="nombre" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="monto" class="control-label">Monto</label>
+                    <input asp-for="monto" class="form-control" />
+                    <span asp-validation-for="monto" class="text-danger"></span>
+                </div>
+                <div class="form-group botones">
+                    <input type="submit" value="Crear" class="btn btn-success" />
+                    <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; Derechos Reservados Universidad Politécnica del Valle de Toluca</p>
+        <div class="social-icons">
+            <a href="#"><img src="~/images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="~/images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="~/images/email.png" alt="Correo"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
