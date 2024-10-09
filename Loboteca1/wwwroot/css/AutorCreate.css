@@ -5,19 +5,86 @@ body {
     background-color: #f2f2f2;
 }
 
-/* Sección principal */
-h2 {
-    text-align: center;
-    color: #781c2e;
-    margin-bottom: 20px;
-}
-
 /* Barra de navegación */
 .navbar {
     background-color: #781c2e;
-    padding: 10px;
-    text-align: center;
+    padding: 30px;
     color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .navbar h1 {
+        color: white;
+        text-align: center;
+        margin: 0;
+        margin-left: 1.5cm;
+    }
+
+.logo-left {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    top: 3px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.account-right {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+}
+
+    .account-right li {
+        margin: 0 20px;
+        display: flex;
+        align-items: center;
+    }
+
+        .account-right li img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .account-right li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block;
+            text-align: center;
+        }
+
+            .account-right li a:hover {
+                background-color: #D291BC;
+                border-radius: 5px;
+                padding: 5px;
+            }
+
+/* Contenido principal */
+.main-section {
+    padding: 20px;
+}
+
+h2.section-title {
+    text-align: center;
+    color: #781c2e;
     margin-bottom: 20px;
 }
 
@@ -65,17 +132,36 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
+    text-decoration: none;
 }
 
     .btn-success:hover, .btn-secondary:hover {
         background-color: #993333;
     }
 
-/* Pie de página */
+
+/* Footer */
 footer {
     background-color: #781c2e;
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
+
+    footer p {
+        margin: 10px 0;
+    }
+
+.social-icons {
+    margin-top: 10px;
+}
+
+    .social-icons a img {
+        width: 30px;
+        margin: 0 10px;
+    }
+
+        .social-icons a img:hover {
+            opacity: 0.7;
+        }

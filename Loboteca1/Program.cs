@@ -27,10 +27,10 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-// Definir la ruta predeterminada (default)
-//app.MapControllerRoute(
-//    name: "default",
-//    pattern: "{controller=Login}/{action=Login}/{id?}");  // Ruta predeterminada para Login
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Login}/{action=Login}/{id?}");  // Ruta predeterminada para Login
 
 // Definir rutas adicionales para cada controlador
 
