@@ -61,7 +61,7 @@ namespace Loboteca1.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, LibroModel libro)
         {
-            if (id != libro.Id)
+            if (id != libro.id)
             {
                 return NotFound();
             }
@@ -75,7 +75,7 @@ namespace Loboteca1.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!LibroExists(libro.Id))
+                    if (!LibroExists(libro.id))
                     {
                         return NotFound();
                     }
@@ -98,7 +98,7 @@ namespace Loboteca1.Controllers
             }
 
             var libro = await _context.Libros
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.id == id);
             if (libro == null)
             {
                 return NotFound();
@@ -120,7 +120,7 @@ namespace Loboteca1.Controllers
 
         private bool LibroExists(int id)
         {
-            return _context.Libros.Any(e => e.Id == id);
+            return _context.Libros.Any(e => e.id == id);
         }
     }
 }
