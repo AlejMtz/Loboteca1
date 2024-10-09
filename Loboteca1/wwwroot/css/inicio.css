@@ -37,8 +37,10 @@ body {
             .navbar2 ul li img {
                 width: 50px; /* Tamaño uniforme para todos los íconos */
                 height: 50px;
+                margin-top:-100px;
                 margin-bottom: 5px; /* Espacio entre el ícono y el texto */
                 margin-right: 25px;
+
 
             }
 
