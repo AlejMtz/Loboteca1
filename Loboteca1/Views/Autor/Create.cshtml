@@ -13,16 +13,28 @@
     <link rel="stylesheet" href="~/css/AutorCreate.css" />
 </head>
 <body>
-    <!-- Barra de navegación -->
+    <!-- Encabezado principal -->
     <header>
         <nav class="navbar">
-            <h1>Loboteca - @ViewData["Title"]</h1>
+            <ul class="logo-left">
+                <li>
+                    <img src="~/images/logo.png" alt="Logo" class="logo">
+                </li>
+            </ul>
+            <h1>LOBOTECA</h1>
+            <ul class="account-right">
+                <li>
+                    <img src="~/images/cuenta.png" alt="Cuenta" class="icono">
+                    <a href="@Url.Action("Perfil", "Perfil")">Cuenta</a>
+                </li>
+            </ul>
         </nav>
     </header>
 
     <!-- Formulario -->
     <main>
-        <h2>@ViewData["Title"]</h2>
+        <section class="main-section">
+            <h2 class="section-title">Crear Autor</h2>
 
         <form asp-action="Create" method="post" class="formulario-altas">
             <div class="form-group">
@@ -53,6 +65,11 @@
     <!-- Pie de página -->
     <footer>
         <p>&copy; Derechos Reservados Universidad Politécnica del Valle de Toluca</p>
+        <div class="social-icons">
+            <a href="#"><img src="~/images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="~/images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="~/images/email.png" alt="Correo"></a>
+        </div>
     </footer>
 
     @section Scripts {

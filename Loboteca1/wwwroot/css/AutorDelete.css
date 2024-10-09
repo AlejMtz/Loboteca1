@@ -3,6 +3,13 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el body ocupe toda la altura de la pantalla */
+}
+
+main {
+    flex: 1; /* Hace que el contenido principal ocupe el espacio disponible */
 }
 
 /* Barra de navegación */
@@ -18,7 +25,6 @@ body {
 
     .navbar h1 {
         color: white;
-        text-align: center;
         margin: 0;
         margin-left: 1.5cm;
     }
@@ -78,8 +84,14 @@ body {
             }
 
 /* Contenido principal */
-.main-section {
-    padding: 20px;
+.formulario-altas {
+    width: 50%;
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 h2.section-title {
@@ -88,57 +100,66 @@ h2.section-title {
     margin-bottom: 20px;
 }
 
-/* Contenedor del formulario */
-.formulario-altas {
-    width: 50%;
-    margin: 20px auto;
-    padding: 30px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
 }
 
-    .formulario-altas label {
-        display: block;
-        font-size: 18px;
-        margin-bottom: 10px;
+.detalle-autor {
+    margin-bottom: 20px;
+}
+
+    .detalle-autor h4 {
+        color: #781c2e;
+        text-align: center;
+    }
+
+    .detalle-autor dl {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .detalle-autor dt {
+        font-weight: bold;
         color: #781c2e;
     }
 
-    .formulario-altas input[type="text"] {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 15px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
-
-    .formulario-altas .text-danger {
-        color: #d9534f;
+    .detalle-autor dd {
+        margin-left: 0;
+        color: #333;
     }
 
 /* Botones */
 .botones {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 
-.btn-success, .btn-secondary {
-    background-color: #781c2e;
-    color: white;
+.btn {
     padding: 10px 20px;
-    border: none;
     border-radius: 5px;
+    border: none;
     cursor: pointer;
     font-size: 14px;
-    text-decoration: none;
 }
 
-    .btn-success:hover, .btn-secondary:hover {
-        background-color: #993333;
-    }
+.btn-danger {
+    background-color: #f44336;
+    color: white;
+}
 
+.btn-secondary {
+    background-color: #993333;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
 
 /* Footer */
 footer {
@@ -146,7 +167,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 60px;
+    margin-top: auto; /* Asegura que el footer esté pegado al final */
 }
 
     footer p {
