@@ -65,6 +65,7 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
+    text-decoration: none;
 }
 
     .btn-success:hover, .btn-secondary:hover {
